@@ -2,9 +2,9 @@
 
 Simple Nest based config service facilitating the setting and getting of key:value based storage using a JSON file
 
-- GET <config-service-url>/ - Returns all config
-- POST <config-service-url>/ - Merges all specified key:value pairs into config
-- POST <config-service-url>/reset - Either clears config to {} or resets to specified object 
+- `GET <config-service-url>/` - Returns all config
+- `POST <config-service-url>/`- Merges all specified key:value pairs into config
+- `POST <config-service-url>/reset` - Either clears config to {} or resets to specified object 
 
 ## Installation
 
